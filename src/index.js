@@ -56,7 +56,7 @@ app.get("/contact/*",(req,res)=>{
 })
 app.get("*",(req,res)=>{
     res.render("404",{
-        errorStatus:"404- page cannot found!!"
+        errorStatus:"404- page cannot found!!,Click here to continue"
     })
 })
 
