@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: fff;
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.footer{
+    min-height: 50px;
+    background-color:red;
+    font-family: sans-serif;
+    margin-top: auto;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    height: 50px;
+    background-color:red;
+    font-family: sans-serif;
+    /* margin-bottom: auto; */
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    color:white;
+    /* text-align: center; */
+    /* padding: 10px 0px; */
+}
